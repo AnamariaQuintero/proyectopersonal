@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family= Irish+Grover & display=swap');
+
+body{
+    background-color: #EEE5FD;
+}
+
+.title{
+    background-color: #D0BDEE;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    flex-direction:row;
+    gap: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.title_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.title_name{
+    font-size:60px;
+}
+
+.title_order{
+    justify-content: right;
+    margin-left: 1200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Irish Grover';
+}
+
+.title_trend{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.menu{
+    background-color: #D0BDEE;  
+    max-width: 2000px;
+    margin: auto;
+    padding: 0;
+
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0px;
+    display: block;
+    
+    
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+  
+}
+
+.text_menu{
+    margin-right: 120px;
+    margin-left: 118px;
+}
+
+.menu li a:hover{
+    background: #9882bc;
+    border-radius: 25px;
+}
